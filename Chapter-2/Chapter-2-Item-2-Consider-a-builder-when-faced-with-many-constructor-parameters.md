@@ -322,6 +322,7 @@ In summary, the Builder pattern is a good choice when designing classes whose co
 
 ### **随笔**
 
+工具类Mark（为构建更精炼的API提供了可能，作为模板类团队合作中需要付出学习成本）
 每个内部 Builder 类要对每个字段建立相应方法，代码比较冗长。若将「构建机制」独立出来，或能广泛适应相似结构的构建需求。以下是针对原文案例的简要修改，仅供参考：
 
 ```
